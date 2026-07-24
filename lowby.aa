@@ -54,7 +54,7 @@ local function v51(v50)
 end;
 local function v55(v52, v53)
     local v54 = v53 and "FF3E3EFF" or "{Link Active}";
-    print_raw(string.format("[\a%slowby\aDEFAULT] \a%s%s", "{Link Active}", v54, v52));
+    print_raw(string.format("[\a%sgazolina\aDEFAULT] \a%s%s", "{Link Active}", v54, v52));
 end;
 local v56 = render.screen_size();
 local v57 = {
